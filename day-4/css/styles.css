@@ -1,0 +1,9 @@
+.input-container {
+    border: 1px solid black;
+}
+
+.input-container > * {
+    display: inline-block;
+    border: none;
+    padding: 0;
+}
