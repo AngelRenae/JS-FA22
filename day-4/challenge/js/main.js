@@ -22,12 +22,16 @@ const validate = () => {
     alert('bad');
     validate();
   } else {
+    console.log(num);
     return num;
   }
 };
 
 let numOne = validate();
 let numTwo = validate();
+
+console.log(numOne);
+console.log(numTwo);
 
 if (numOne > numTwo) {
   alert(numOne);
