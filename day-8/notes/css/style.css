@@ -1,0 +1,14 @@
+* {
+    font-family: "Inter";
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin: .3rem .5rem;
+}
